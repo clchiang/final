@@ -11,5 +11,11 @@
 <p>5. 完成後可到Menu選擇下一項測驗。</p>
 
 ### 技術說明
-#### 轉盤
+#### 轉盤頁面
 <p>1. Template來源：http://www.jq22.com/yanshi22646 </p>
+<p>2. 用小畫家將中間按鈕改成繁體字。</p>
+<p>3. 到https://icons8.com/icons 下載適合的icon，取代模板原來的圖片，並加入超連結。</p>
+
+#### 測驗頁面
+<p>1. Template來源：https://startbootstrap.com/themes/agency/ </p>
+<p>2. </p>
