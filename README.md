@@ -23,3 +23,34 @@
 <p>4. 加入選項按鈕（參考https://www.wibibi.com/info.php?tid=190 ）。</p>
 <p>5. 插入音樂。</p>
 <p>6. 插入圖片，設定大小（300px*300px）。</p>
+<p>7. 按確定後跳出測驗結果（jQuery）：</p>
+<p>   
+                var txt;
+                var a = Math.floor(Math.random() * 3);
+                if (a == 0) {
+                    var r = confirm("你是90年代的人");
+                    if (r == true) {
+                        txt = "我覺得很準！";
+                    } else {
+                        txt = "再來一次！";
+                    }
+                    document.getElementById("demo").innerHTML = txt;
+
+                } else if (a == 1) {
+                    var r = confirm("你是00後的年輕人");
+                    if (r == true) {
+                        txt = "我覺得很準！";
+                    } else {
+                        txt = "再來一次！";
+                    }
+                    document.getElementById("demo").innerHTML = txt;
+                } else {
+                    var r = confirm("你非常跟得上潮流！");
+                    if (r == true) {
+                        txt = "我覺得很準！";
+                    } else {
+                        txt = "再來一次！";
+                    }
+                    document.getElementById("demo").innerHTML = txt;
+                }
+            }</p>
