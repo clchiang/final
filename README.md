@@ -21,18 +21,10 @@
 <p>2. 引用思源黑體字型。</p>
 <p>3. button:用css改變底色和字體顏色。</p>
 <p>4. 加入選項按鈕（參考https://www.wibibi.com/info.php?tid=190 ）。</p>
-<p>             <div class="col-md-4">
-                    <p class="text-muted">__
-                        <form>
-                            <input type="radio" name="location" value="Taipei" id="70-1-1">___<br>
-                            <input type="radio" name="location" value="Taoyuan" id="70-1-2">___<br>
-                        </form>
-                    </p>
-                </div>
-                </p>
 <p>5. 插入音樂。</p>
 <p>6. 插入圖片，設定大小（300px*300px）。</p>
-<p>7. 按確定後跳出測驗結果（jQuery）：</p>
+<p>7. 按確定後跳出測驗結果（jQuery）：</p> 
+<p>   原本想依照使用者的回答得到相對應的年代，但做不出來所以改用隨機給出結果。先設定a為隨機選取某範圍數字，不同數字可讓不同對話框出現；對話框按確定則在確定鍵下方顯示"我覺得很準！"，按取消則顯示"再來一次！"</p>
 
                 var txt;
                 var a = Math.floor(Math.random() * 3);
@@ -63,3 +55,4 @@
                     document.getElementById("demo").innerHTML = txt;
                 }
             }
+        
