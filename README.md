@@ -18,4 +18,6 @@
 
 #### 測驗頁面
 <p>1. Template來源：https://startbootstrap.com/themes/agency/ </p>
-<p>2. </p>
+<p>2. 引用思源黑體字型。</p>
+<p>3. button:用css改變底色和字體顏色。</p>
+<p>4. 加入選項按鈕（參考https://www.wibibi.com/info.php?tid=190）。</p>
