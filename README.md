@@ -21,7 +21,7 @@
 <p>2. 引用思源黑體字型。</p>
 <p>3. button:用css改變底色和字體顏色。</p>
 <p>4. 加入選項按鈕（參考https://www.wibibi.com/info.php?tid=190 ）。</p>
-                <div class="col-md-4">
+<p>             <div class="col-md-4">
                     <p class="text-muted">__
                         <form>
                             <input type="radio" name="location" value="Taipei" id="70-1-1">___<br>
@@ -29,6 +29,7 @@
                         </form>
                     </p>
                 </div>
+                </p>
 <p>5. 插入音樂。</p>
 <p>6. 插入圖片，設定大小（300px*300px）。</p>
 <p>7. 按確定後跳出測驗結果（jQuery）：</p>
