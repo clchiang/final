@@ -24,7 +24,7 @@
 <p>5. 插入音樂。</p>
 <p>6. 插入圖片，設定大小（300px*300px）。</p>
 <p>7. 按確定後跳出測驗結果（jQuery）：</p>
-<p>   
+
                 var txt;
                 var a = Math.floor(Math.random() * 3);
                 if (a == 0) {
@@ -53,4 +53,4 @@
                     }
                     document.getElementById("demo").innerHTML = txt;
                 }
-            }</p>
+            }
